@@ -3,11 +3,13 @@ package ru.otus.booksdb;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class BooksdbApplication {
+import java.sql.SQLException;
 
-    public static void main(String[] args) {
-        SpringApplication.run(BooksdbApplication.class, args);
+@SpringBootApplication
+public class Main {
+
+    public static void main(String[] args) throws SQLException {
+        SpringApplication.run(Main.class, args);
     }
 
 }
