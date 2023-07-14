@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:bookdb
+    #initialization-mode: always
+    #schema: schema.sql
+    #data: data.sql
+  main:
+    allow-circular-references: true
+    web-application-type: NONE
+  sql:
+    init:
+      mode: always
+      data-locations: data.sql
+      schema-locations: schema.sql
+  h2:
+    console:
+      path: /h2-console
+      settings:
+        web-allow-others: true
+      enabled: true

@@ -1,0 +1,14 @@
+insert into AUTHORS (AUTHOR) values ('Leo Tolstoy');
+insert into AUTHORS (AUTHOR) values ('Alex Pushkin');
+insert into AUTHORS (AUTHOR) values ('Michael Sholokhov');
+insert into AUTHORS (AUTHOR) values ('Arthur Conan Doyle');
+insert into AUTHORS (AUTHOR) values ('Nikolay Gogol');
+insert into GENRES (GENRE) values ('Tale');
+insert into GENRES (GENRE) values ('Drama');
+insert into GENRES (GENRE) values ('Detective');
+insert into BOOKS (TITLE, AUTHOR, GENRE) values ('War and peace', 1, 2);
+insert into BOOKS (TITLE, AUTHOR, GENRE) values ('Eugene Onegin', 2, 2);
+insert into BOOKS (TITLE, AUTHOR, GENRE) values ('Kazaks', 1, 1);
+insert into BOOKS (TITLE, AUTHOR, GENRE) values ('Silent Don', 3, 2);
+insert into BOOKS (TITLE, AUTHOR, GENRE) values ('Sherlock Holmes', 4, 3);
+insert into BOOKS (TITLE, AUTHOR, GENRE) values ('Taras Bulba', 5, 1);
